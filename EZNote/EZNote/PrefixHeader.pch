@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  StatusNote
+//
+//  Created by 舒姝 on 2020/10/15.
+//  Copyright © 2020 shushu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define AppName @"StatusNote"
+
+#define ProductName @"支言"
+
+#define BundleID_MainApp @"com.ds.StatusNote"
+#define BundleID_LoginItem @"com.ds.StatusNoteLoginItem"
+
+#define kDidUse @"DidUse"  // 是否使用过
+#define kShouldAutoLaunch @"ShouldAutoLaunch"
+
+#import <Masonry.h>
+#import <MJExtension.h>
+
+#import "EZTimeTools.h"
+
+#import "NoteHandler.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

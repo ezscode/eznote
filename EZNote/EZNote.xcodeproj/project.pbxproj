@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61104456B7BF6840DE5F05B8 /* libPods-EZNote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4973A3E1B0C15E2915614001 /* libPods-EZNote.a */; };
+		F337E6052D0C83C6003CF8E5 /* WriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F337E5F62D0C83C6003CF8E5 /* WriteViewController.m */; };
+		F337E6062D0C83C6003CF8E5 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F337E5F92D0C83C6003CF8E5 /* AboutViewController.m */; };
+		F337E6072D0C83C6003CF8E5 /* GeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F337E5FC2D0C83C6003CF8E5 /* GeneralViewController.m */; };
+		F337E6082D0C83C6003CF8E5 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F337E5FE2D0C83C6003CF8E5 /* PreferencesWindowController.m */; };
+		F337E6092D0C83C6003CF8E5 /* NoteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F337E6002D0C83C6003CF8E5 /* NoteHandler.m */; };
+		F337E60A2D0C83C6003CF8E5 /* EZTimeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F337E6042D0C83C6003CF8E5 /* EZTimeTools.m */; };
+		F337E60E2D0C84C5003CF8E5 /* NSButton+PEZ.m in Sources */ = {isa = PBXBuildFile; fileRef = F337E60D2D0C84C5003CF8E5 /* NSButton+PEZ.m */; };
+		F337E6172D0C8918003CF8E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F337E6162D0C8918003CF8E5 /* AppDelegate.m */; };
+		F337E6192D0C891B003CF8E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F337E6182D0C891B003CF8E5 /* Assets.xcassets */; };
+		F337E61C2D0C891B003CF8E5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F337E61A2D0C891B003CF8E5 /* MainMenu.xib */; };
+		F337E61E2D0C891B003CF8E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F337E61D2D0C891B003CF8E5 /* main.m */; };
+		F3F4165F2CA991FD00F5CBBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F4165E2CA991FD00F5CBBA /* AppDelegate.m */; };
+		F3F416612CA9920000F5CBBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F416602CA9920000F5CBBA /* Assets.xcassets */; };
+		F3F416642CA9920000F5CBBA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3F416622CA9920000F5CBBA /* MainMenu.xib */; };
+		F3F416662CA9920000F5CBBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F416652CA9920000F5CBBA /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		119C64FA9EFF818DF80E13E4 /* Pods-EZNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZNote.release.xcconfig"; path = "Target Support Files/Pods-EZNote/Pods-EZNote.release.xcconfig"; sourceTree = "<group>"; };
+		3DA1B7D7260E129B520E132A /* Pods-EZNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZNote.debug.xcconfig"; path = "Target Support Files/Pods-EZNote/Pods-EZNote.debug.xcconfig"; sourceTree = "<group>"; };
+		4973A3E1B0C15E2915614001 /* libPods-EZNote.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EZNote.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F337E5F52D0C83C6003CF8E5 /* NoteHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteHandler.h; sourceTree = "<group>"; };
+		F337E5F62D0C83C6003CF8E5 /* WriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteViewController.m; sourceTree = "<group>"; };
+		F337E5F72D0C83C6003CF8E5 /* WriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteViewController.h; sourceTree = "<group>"; };
+		F337E5F92D0C83C6003CF8E5 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		F337E5FA2D0C83C6003CF8E5 /* GeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralViewController.h; sourceTree = "<group>"; };
+		F337E5FB2D0C83C6003CF8E5 /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
+		F337E5FC2D0C83C6003CF8E5 /* GeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralViewController.m; sourceTree = "<group>"; };
+		F337E5FD2D0C83C6003CF8E5 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		F337E5FE2D0C83C6003CF8E5 /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+		F337E5FF2D0C83C6003CF8E5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F337E6002D0C83C6003CF8E5 /* NoteHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteHandler.m; sourceTree = "<group>"; };
+		F337E6032D0C83C6003CF8E5 /* EZTimeTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTimeTools.h; sourceTree = "<group>"; };
+		F337E6042D0C83C6003CF8E5 /* EZTimeTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTimeTools.m; sourceTree = "<group>"; };
+		F337E60C2D0C84C5003CF8E5 /* NSButton+PEZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSButton+PEZ.h"; sourceTree = "<group>"; };
+		F337E60D2D0C84C5003CF8E5 /* NSButton+PEZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSButton+PEZ.m"; sourceTree = "<group>"; };
+		F337E6132D0C8918003CF8E5 /* EZNoteLoginItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZNoteLoginItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F337E6152D0C8918003CF8E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F337E6162D0C8918003CF8E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F337E6182D0C891B003CF8E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F337E61B2D0C891B003CF8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F337E61D2D0C891B003CF8E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F337E61F2D0C891B003CF8E5 /* EZNoteLoginItem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EZNoteLoginItem.entitlements; sourceTree = "<group>"; };
+		F3F4165A2CA991FD00F5CBBA /* EZNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F4165D2CA991FD00F5CBBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3F4165E2CA991FD00F5CBBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3F416602CA9920000F5CBBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3F416632CA9920000F5CBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F3F416652CA9920000F5CBBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3F416672CA9920000F5CBBA /* EZNote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EZNote.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F337E6102D0C8918003CF8E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F416572CA991FD00F5CBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61104456B7BF6840DE5F05B8 /* libPods-EZNote.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1D495A40B54ACF4D7342AE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DA1B7D7260E129B520E132A /* Pods-EZNote.debug.xcconfig */,
+				119C64FA9EFF818DF80E13E4 /* Pods-EZNote.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E14EDA7C463A483397E1591D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4973A3E1B0C15E2915614001 /* libPods-EZNote.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F337E5F82D0C83C6003CF8E5 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				F337E5F92D0C83C6003CF8E5 /* AboutViewController.m */,
+				F337E5FA2D0C83C6003CF8E5 /* GeneralViewController.h */,
+				F337E5FB2D0C83C6003CF8E5 /* PreferencesWindowController.h */,
+				F337E5FC2D0C83C6003CF8E5 /* GeneralViewController.m */,
+				F337E5FD2D0C83C6003CF8E5 /* AboutViewController.h */,
+				F337E5FE2D0C83C6003CF8E5 /* PreferencesWindowController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		F337E6012D0C83C6003CF8E5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F337E60B2D0C84C5003CF8E5 /* Category */,
+				F337E6022D0C83C6003CF8E5 /* Time */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F337E6022D0C83C6003CF8E5 /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				F337E6032D0C83C6003CF8E5 /* EZTimeTools.h */,
+				F337E6042D0C83C6003CF8E5 /* EZTimeTools.m */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		F337E60B2D0C84C5003CF8E5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F337E60C2D0C84C5003CF8E5 /* NSButton+PEZ.h */,
+				F337E60D2D0C84C5003CF8E5 /* NSButton+PEZ.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F337E6142D0C8918003CF8E5 /* EZNoteLoginItem */ = {
+			isa = PBXGroup;
+			children = (
+				F337E6152D0C8918003CF8E5 /* AppDelegate.h */,
+				F337E6162D0C8918003CF8E5 /* AppDelegate.m */,
+				F337E6182D0C891B003CF8E5 /* Assets.xcassets */,
+				F337E61A2D0C891B003CF8E5 /* MainMenu.xib */,
+				F337E61D2D0C891B003CF8E5 /* main.m */,
+				F337E61F2D0C891B003CF8E5 /* EZNoteLoginItem.entitlements */,
+			);
+			path = EZNoteLoginItem;
+			sourceTree = "<group>";
+		};
+		F3F416512CA991FC00F5CBBA = {
+			isa = PBXGroup;
+			children = (
+				F3F4165C2CA991FD00F5CBBA /* EZNote */,
+				F337E6142D0C8918003CF8E5 /* EZNoteLoginItem */,
+				F3F4165B2CA991FD00F5CBBA /* Products */,
+				C1D495A40B54ACF4D7342AE8 /* Pods */,
+				E14EDA7C463A483397E1591D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3F4165B2CA991FD00F5CBBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3F4165A2CA991FD00F5CBBA /* EZNote.app */,
+				F337E6132D0C8918003CF8E5 /* EZNoteLoginItem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3F4165C2CA991FD00F5CBBA /* EZNote */ = {
+			isa = PBXGroup;
+			children = (
+				F337E6012D0C83C6003CF8E5 /* Common */,
+				F337E5F52D0C83C6003CF8E5 /* NoteHandler.h */,
+				F337E6002D0C83C6003CF8E5 /* NoteHandler.m */,
+				F337E5FF2D0C83C6003CF8E5 /* PrefixHeader.pch */,
+				F337E5F82D0C83C6003CF8E5 /* Setting */,
+				F337E5F72D0C83C6003CF8E5 /* WriteViewController.h */,
+				F337E5F62D0C83C6003CF8E5 /* WriteViewController.m */,
+				F3F4165D2CA991FD00F5CBBA /* AppDelegate.h */,
+				F3F4165E2CA991FD00F5CBBA /* AppDelegate.m */,
+				F3F416602CA9920000F5CBBA /* Assets.xcassets */,
+				F3F416622CA9920000F5CBBA /* MainMenu.xib */,
+				F3F416652CA9920000F5CBBA /* main.m */,
+				F3F416672CA9920000F5CBBA /* EZNote.entitlements */,
+			);
+			path = EZNote;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F337E6122D0C8918003CF8E5 /* EZNoteLoginItem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F337E6202D0C891B003CF8E5 /* Build configuration list for PBXNativeTarget "EZNoteLoginItem" */;
+			buildPhases = (
+				F337E60F2D0C8918003CF8E5 /* Sources */,
+				F337E6102D0C8918003CF8E5 /* Frameworks */,
+				F337E6112D0C8918003CF8E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZNoteLoginItem;
+			productName = EZNoteLoginItem;
+			productReference = F337E6132D0C8918003CF8E5 /* EZNoteLoginItem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3F416592CA991FD00F5CBBA /* EZNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F4166A2CA9920000F5CBBA /* Build configuration list for PBXNativeTarget "EZNote" */;
+			buildPhases = (
+				018B9BF21F66EAC705DE4691 /* [CP] Check Pods Manifest.lock */,
+				F3F416562CA991FD00F5CBBA /* Sources */,
+				F3F416572CA991FD00F5CBBA /* Frameworks */,
+				F3F416582CA991FD00F5CBBA /* Resources */,
+				13AF1F3264C86314DCFEB7B0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZNote;
+			productName = EZNote;
+			productReference = F3F4165A2CA991FD00F5CBBA /* EZNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3F416522CA991FC00F5CBBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F337E6122D0C8918003CF8E5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F3F416592CA991FD00F5CBBA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F3F416552CA991FC00F5CBBA /* Build configuration list for PBXProject "EZNote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3F416512CA991FC00F5CBBA;
+			productRefGroup = F3F4165B2CA991FD00F5CBBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3F416592CA991FD00F5CBBA /* EZNote */,
+				F337E6122D0C8918003CF8E5 /* EZNoteLoginItem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F337E6112D0C8918003CF8E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F337E6192D0C891B003CF8E5 /* Assets.xcassets in Resources */,
+				F337E61C2D0C891B003CF8E5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F416582CA991FD00F5CBBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F416612CA9920000F5CBBA /* Assets.xcassets in Resources */,
+				F3F416642CA9920000F5CBBA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		018B9BF21F66EAC705DE4691 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EZNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13AF1F3264C86314DCFEB7B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EZNote/Pods-EZNote-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EZNote/Pods-EZNote-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EZNote/Pods-EZNote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F337E60F2D0C8918003CF8E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F337E61E2D0C891B003CF8E5 /* main.m in Sources */,
+				F337E6172D0C8918003CF8E5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F416562CA991FD00F5CBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F337E60E2D0C84C5003CF8E5 /* NSButton+PEZ.m in Sources */,
+				F337E60A2D0C83C6003CF8E5 /* EZTimeTools.m in Sources */,
+				F3F416662CA9920000F5CBBA /* main.m in Sources */,
+				F337E6072D0C83C6003CF8E5 /* GeneralViewController.m in Sources */,
+				F337E6052D0C83C6003CF8E5 /* WriteViewController.m in Sources */,
+				F337E6062D0C83C6003CF8E5 /* AboutViewController.m in Sources */,
+				F337E6092D0C83C6003CF8E5 /* NoteHandler.m in Sources */,
+				F337E6082D0C83C6003CF8E5 /* PreferencesWindowController.m in Sources */,
+				F3F4165F2CA991FD00F5CBBA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F337E61A2D0C891B003CF8E5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F337E61B2D0C891B003CF8E5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F3F416622CA9920000F5CBBA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3F416632CA9920000F5CBBA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F337E6212D0C891B003CF8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EZNoteLoginItem/EZNoteLoginItem.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez.EZNoteLoginItem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		F337E6222D0C891B003CF8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EZNoteLoginItem/EZNoteLoginItem.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez.EZNoteLoginItem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		F3F416682CA9920000F5CBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F3F416692CA9920000F5CBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F3F4166B2CA9920000F5CBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DA1B7D7260E129B520E132A /* Pods-EZNote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EZNote/EZNote.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/EZNote/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez.EZNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		F3F4166C2CA9920000F5CBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119C64FA9EFF818DF80E13E4 /* Pods-EZNote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EZNote/EZNote.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/EZNote/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez.EZNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F337E6202D0C891B003CF8E5 /* Build configuration list for PBXNativeTarget "EZNoteLoginItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F337E6212D0C891B003CF8E5 /* Debug */,
+				F337E6222D0C891B003CF8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F416552CA991FC00F5CBBA /* Build configuration list for PBXProject "EZNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F416682CA9920000F5CBBA /* Debug */,
+				F3F416692CA9920000F5CBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F4166A2CA9920000F5CBBA /* Build configuration list for PBXNativeTarget "EZNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F4166B2CA9920000F5CBBA /* Debug */,
+				F3F4166C2CA9920000F5CBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3F416522CA991FC00F5CBBA /* Project object */;
+}

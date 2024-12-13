@@ -1,0 +1,11 @@
+
+platform :osx, '10.11'  
+target "EZNote" do
+
+pod 'Masonry', '~> 1.1.0'
+
+pod 'MJExtension', '3.0.13'
+pod 'MASPreferences' 
+
+end
+ 
